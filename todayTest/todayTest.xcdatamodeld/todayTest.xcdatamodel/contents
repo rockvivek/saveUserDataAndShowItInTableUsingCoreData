@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18E226" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Person" representedClassName="Person" syncable="YES" codeGenerationType="class">
+        <attribute name="dob" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="firstname" optional="YES" attributeType="String"/>
+        <attribute name="lastname" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Person1" representedClassName="Person1" syncable="YES" codeGenerationType="class">
+        <attribute name="dob" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="firstname" optional="YES" attributeType="String"/>
+        <attribute name="lastname" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Person" positionX="-63" positionY="-18" width="128" height="133"/>
+        <element name="Person1" positionX="-63" positionY="27" width="128" height="133"/>
+    </elements>
+</model>
